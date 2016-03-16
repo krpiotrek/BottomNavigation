@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="translation_x">8dp</dimen>
+    <dimen name="text_translation_y">4dp</dimen>
+    <dimen name="icon_translation_y">10dp</dimen>
+</resources>
