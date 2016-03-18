@@ -21,4 +21,5 @@ navigation.builder()
     .hideOnScroll(true)
     .startingPosition(1)
     .build();
-```                
+```          
+![alt tag](http://im2.ezgif.com/tmp/ezgif-129172832.gif)
