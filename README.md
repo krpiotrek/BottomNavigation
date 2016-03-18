@@ -22,4 +22,4 @@ navigation.builder()
     .startingPosition(1)
     .build();
 ```          
-![alt tag](http://im2.ezgif.com/tmp/ezgif-129172832.gif)
+![alt tag](http://im2.ezgif.com/tmp/ezgif-3892547141.gif)
