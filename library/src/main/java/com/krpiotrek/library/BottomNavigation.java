@@ -4,6 +4,9 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.DrawableRes;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -104,11 +107,18 @@ public class BottomNavigation extends LinearLayout {
         private final String text;
         private final int color;
 
-        public NavigationItem(int id, Drawable icon, String text, int color) {
+        public NavigationItem(int id, @DrawableRes @NonNull Drawable icon, @NonNull String text, int color) {
             this.id = id;
             this.icon = icon;
             this.text = text;
             this.color = color;
+        }
+
+        public NavigationItem(int id, @DrawableRes @NonNull Drawable icon, @NonNull String text) {
+            this.id = id;
+            this.icon = icon;
+            this.text = text;
+            this.color = -1;
         }
     }
 
@@ -141,11 +151,12 @@ public class BottomNavigation extends LinearLayout {
         super(context, attrs, defStyleAttr);
     }
 
+    @NonNull
     public ConfigurationBuilder builder() {
         return new ConfigurationBuilder();
     }
 
-    public void setOnItemSelectedListener(OnItemSelectedListener onItemSelectedListener) {
+    public void setOnItemSelectedListener(@Nullable OnItemSelectedListener onItemSelectedListener) {
         mOnItemSelectedListener = onItemSelectedListener;
     }
 
