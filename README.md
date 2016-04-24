@@ -2,6 +2,9 @@
 
 Material design Bottom Navigation implementation
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BottomNavigation-blue.svg?style=flat-square)](http://android-arsenal.com/details/1/3330)
+
+
 ```
 final BottomNavigation navigation = (BottomNavigation) findViewById(R.id.bottom_navigation);
 
