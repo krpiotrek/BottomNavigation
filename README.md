@@ -26,3 +26,7 @@ navigation.builder()
     .build();
 ```          
 ![alt tag](https://media.giphy.com/media/xThuW13vdvR57YD9Ha/giphy.gif)
+
+## License
+
+The BottomNavigation library is available under the Apache 2.0 License.
