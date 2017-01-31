@@ -35,7 +35,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.krpiotrek:BottomNavigation:d6a02f9686'
+    compile 'com.github.krpiotrek:BottomNavigation:library:d6a02f9686'
 }
 ```
 
