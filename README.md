@@ -27,6 +27,18 @@ navigation.builder()
 ```          
 ![alt tag](https://media.giphy.com/media/xThuW13vdvR57YD9Ha/giphy.gif)
 
+## Usage
+
+```groovy
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.krpiotrek:BottomNavigation:d6a02f9686'
+}
+```
+
 ## License
 
 The BottomNavigation library is available under the Apache 2.0 License.
